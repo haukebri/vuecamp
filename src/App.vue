@@ -1,11 +1,6 @@
 <template>
   <div id="app">
-    <nav id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/tickets">Tickets</router-link>
-      <router-link to="/sponsors">Sponsors</router-link>
-      <router-link to="/location">Location</router-link>
-    </nav>
+    <vc-navbar></vc-navbar>
     <router-view />
 
     <footer>
@@ -16,6 +11,16 @@
     </footer>
   </div>
 </template>
+
+<script>
+import Navbar from "./components/Navbar";
+
+export default {
+  components: {
+    "vc-navbar": Navbar
+  }
+};
+</script>
 
 <style lang="scss">
 #app {

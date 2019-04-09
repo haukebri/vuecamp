@@ -1,0 +1,12 @@
+// custom.scss
+
+$blue:    #3375ec;
+$pink:    #ff6f80;
+$green:   #42b983;
+
+$link-color:  $green;
+$body-color:  #2c3e50;
+
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
