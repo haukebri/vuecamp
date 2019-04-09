@@ -22,9 +22,9 @@
         </p>
 
         <p>
-          I am hooked! Let's get together on <b>05. and 06.10.2019!</b><br />
-          <button>Get a ticket</button>
+          I am hooked, let's get together on <b>05. and 06.10.2019!</b><br />
         </p>
+        <button>Get a ticket -Volker, style me :)</button>
       </div>
       <div class="col-md-6"></div>
     </div>
@@ -48,6 +48,7 @@ export default {
 <style scoped lang="scss">
 .header-teaser {
   padding: 200px 0;
+  text-align: center;
 
   h1 {
     margin-bottom: 30px;
@@ -55,7 +56,6 @@ export default {
 
   p {
     font-size: 18px;
-    line-height: 1.9;
   }
 }
 .mt-big {
