@@ -4,7 +4,11 @@
       <div class="row">
         <div class="col-xl-12">
           <b-navbar toggleable="lg">
-            <b-navbar-brand href="#">NavBar</b-navbar-brand>
+            <b-navbar-brand href="#"
+              ><router-link to="/"
+                ><span>Vue</span>camp 2019</router-link
+              ></b-navbar-brand
+            >
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav class="justify-content-end">
               <b-navbar-nav>
@@ -55,6 +59,10 @@ export default {
     color: $body-color;
     padding-right: 10px;
     text-decoration: none;
+  }
+}
+.navbar-collapse {
+  a {
     transition: color 0.25s ease-in-out;
     &.router-link-exact-active {
       color: $green;
@@ -62,6 +70,13 @@ export default {
     &:hover {
       color: $green;
     }
+  }
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  span {
+    color: $green;
   }
 }
 </style>
