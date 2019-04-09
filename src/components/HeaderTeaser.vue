@@ -22,7 +22,7 @@
         </p>
 
         <p>
-          I am hooked!<br />
+          I am hooked! Let's get together on <b>05. and 06.10.2019!</b><br />
           <button>Get a ticket</button>
         </p>
       </div>
