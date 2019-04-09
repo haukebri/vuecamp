@@ -8,8 +8,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.logo {
-  max-width: 300px;
-}
-</style>
+<style lang="scss"></style>
