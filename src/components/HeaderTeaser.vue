@@ -24,7 +24,7 @@
         <p>
           I am hooked, let's get together on <b>05. and 06.10.2019!</b><br />
         </p>
-        <button>Get a ticket -Volker, style me :)</button>
+        <b-button variant="outline-success" size="lg">Get a ticket</b-button>
       </div>
       <div class="col-md-6"></div>
     </div>
