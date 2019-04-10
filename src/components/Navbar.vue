@@ -12,22 +12,10 @@
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav class="justify-content-end">
               <b-navbar-nav>
-                <b-nav-item href="#"
-                  ><router-link to="/">Home</router-link></b-nav-item
-                >
-                <b-nav-item href="#"
-                  ><router-link to="/tickets">Tickets</router-link></b-nav-item
-                >
-                <b-nav-item href="#"
-                  ><router-link to="/sponsors"
-                    >Sponsors</router-link
-                  ></b-nav-item
-                >
-                <b-nav-item href="#"
-                  ><router-link to="/location"
-                    >Location</router-link
-                  ></b-nav-item
-                >
+                <b-nav-item href="/">Home</b-nav-item>
+                <b-nav-item href="#tickets">Tickets</b-nav-item>
+                <b-nav-item href="#sponsors">Sponsors</b-nav-item>
+                <b-nav-item href="#tickets">Location</b-nav-item>
               </b-navbar-nav>
             </b-collapse>
           </b-navbar>

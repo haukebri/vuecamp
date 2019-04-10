@@ -18,7 +18,7 @@
           A barcamp is not just another passive listening conference. Instead,
           you and everyone else is asked to share their ideas, lead a workshop
           or give a talk. The vuecamp is structured like a barcamp. Well, what’s
-          a barcamp you ask? We’ll dive into that 👉here.
+          a barcamp you ask? We’ll dive into that 👉<a href="#barcamp">here</a>.
         </p>
 
         <p>

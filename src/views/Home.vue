@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <header-teaser class="container" />
-    <div class="bg-grey py-5 relative">
+    <div class="bg-grey py-5 relative" id="barcamp">
       <div class="container">
         <div class="men"><img src="../assets/men.png" alt="" /></div>
         <div class="row">
@@ -29,9 +29,91 @@
           <div class="col-md-5 offset-md-2">
             <h2>Attending</h2>
             <p>
-              Become a vuecamp advocate by telling others! #vuecamp
+              Become a vuecamp advocate by telling others!
+              <a href="https://twitter.com/search?q=%23vuecamp">#vuecamp</a>
             </p>
-            <p>--- twitter hier?!!---</p>
+
+            <p>
+              Just to get everything covered, we invided some people from
+              different communities like Nuxt, vue-storefront or codesandbox.
+            </p>
+            <a
+              href="https://twitter.com/intent/tweet?button_hashtag=vuecamp&ref_src=twsrc%5Etfw"
+              class="twitter-hashtag-button"
+              data-size="large"
+              data-show-count="false"
+              >Tweet #vuecamp</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-5 container centered" id="sponsors">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <h2>Sponsors</h2>
+          <p>
+            Barcamps are organized by the community and wouldn’t be possible
+            without sponsors. In this respect, the vuecamp also needs your
+            support and we very much appreciate your commitment.
+          </p>
+          <p>
+            To become a sponsor, please contact Hauke Brinkmann
+            (h.brinkmann@reply.de). <br />Possible sponsorings: <br />
+            <b>Bronze</b>: 100<br />
+            <b>Silver</b>: 500<br />
+            <b>Gold</b>: 1000
+          </p>
+          <h3 class="mt-5">Our Sponsors</h3>
+
+          <p>
+            <img
+              class="sponsor sponsor-gold"
+              src="../assets/sponsors/pttlogo.png"
+              alt="Portaltech Reply GmbH"
+            />
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-grey py-5 relative" id="tickets">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h2>
+              Tickets
+            </h2>
+            <p>
+              We will start the ticket sale really soon. Stay tuned!
+            </p>
+          </div>
+          <div class="col-md-5 offset-md-2">
+            <h2>Location</h2>
+            <p>
+              The barcamp will take place in the GLS Campus berlin.
+            </p>
+            <p>
+              <b>GLS CAMPUS BERLIN</b><br />
+              Kastanienallee 82 <br />
+              10435 Berlin Prenzlauer Berg<br />
+            </p>
+            <a href="https://gls-campus-berlin.de/" target="_blank"
+              >gls-campus-berlin.de</a
+            ><br />
+            <a href="https://goo.gl/maps/wJ4FdPcgcax" target="_blank"
+              >Link to maps<br />
+              <img src="../assets/berlin.png" alt="Map of Berlin"
+            /></a>
+
+            <h4 class="mt-4">Parking</h4>
+            <p>
+              GLS cannot provide enough parking space for all participants. You
+              can park either on the GLS campus (15€ per day) or at the Hotel
+              Oderberger (25€ per day). Both parking spaces require prior
+              registration with the provider. We recommend travelling by public
+              transport.
+            </p>
           </div>
         </div>
       </div>
@@ -67,8 +149,15 @@ export default {
   position: absolute;
   bottom: 99%;
   max-width: 220px;
-  img {
-    max-width: 100%;
-  }
+}
+img {
+  max-width: 100%;
+}
+.centered {
+  text-align: center;
+}
+
+.sponsor {
+  max-width: 150px;
 }
 </style>
