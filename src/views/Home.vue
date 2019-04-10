@@ -44,6 +44,11 @@
               data-show-count="false"
               >Tweet #vuecamp</a
             >
+            <a
+              class="twitter-timeline"
+              href="https://twitter.com/VueCamp_de?ref_src=twsrc%5Etfw"
+              >Tweets by VueCamp_de</a
+            >
           </div>
         </div>
       </div>
@@ -85,7 +90,13 @@
               Tickets
             </h2>
             <p>
-              We will start the ticket sale really soon. Stay tuned!
+              We will start the ticket sale very soon.
+            </p>
+            <p>
+              If you want to stay up to date you can follow our twitter account
+              <a target="_blank" href="https://twitter.com/VueCamp_de"
+                >@VueCamp_de</a
+              >.
             </p>
           </div>
           <div class="col-md-5 offset-md-2">

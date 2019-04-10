@@ -47,7 +47,7 @@ export default {
 
 <style scoped lang="scss">
 .header-teaser {
-  padding: 200px 0;
+  padding: 200px 15px;
   text-align: center;
 
   h1 {
@@ -73,7 +73,7 @@ export default {
 
 @media (max-height: 800px) {
   .header-teaser {
-    padding: 40px 0;
+    padding: 40px 15px;
   }
   .mt-big {
     margin-top: 60px;

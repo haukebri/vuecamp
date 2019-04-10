@@ -4,11 +4,16 @@
       <div class="row">
         <div class="col-xl-12">
           <b-navbar toggleable="lg">
-            <b-navbar-brand href="#"
-              ><router-link to="/"
-                ><span>Vue</span>camp 2019</router-link
-              ></b-navbar-brand
-            >
+            <b-navbar-brand href="#">
+              <router-link to="/">
+                <img
+                  class="logo-small"
+                  src="../assets/logo_single.svg"
+                  alt="VueCamp Berlin 2019"
+                />
+                <span> 05. - 06.10.2019 </span></router-link
+              >
+            </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav class="justify-content-end">
               <b-navbar-nav>
@@ -59,6 +64,10 @@ export default {
       color: $green;
     }
   }
+}
+.logo-small {
+  max-height: 50px;
+  max-width: 50px;
 }
 
 .navbar-brand {
