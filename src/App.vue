@@ -27,4 +27,7 @@ export default {
   line-height: 1.9;
   color: #2c3e50;
 }
+html {
+  scroll-behavior: smooth;
+}
 </style>
