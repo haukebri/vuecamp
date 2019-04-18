@@ -21,9 +21,7 @@
           a barcamp you ask? We’ll dive into that 👉<a href="#barcamp">here</a>.
         </p>
 
-        <p>
-          I am hooked, let's get together on <b>05. and 06.10.2019!</b><br />
-        </p>
+        <p>I am hooked, let's get together on <b>26 - 27 October!</b><br /></p>
         <a href="#tickets"
           ><b-button variant="outline-success" size="lg"
             >Get a ticket</b-button

@@ -11,7 +11,7 @@
                   src="../assets/logo_single.svg"
                   alt="VueCamp Berlin 2019"
                 />
-                <span> 05. - 06.10.2019 </span></router-link
+                <span> 26 - 27 October </span></router-link
               >
             </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
