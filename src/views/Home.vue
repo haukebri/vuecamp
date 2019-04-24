@@ -64,20 +64,14 @@
           </p>
           <p>
             To become a sponsor, please contact Hauke Brinkmann
-            (h.brinkmann@reply.de). <br />Possible sponsorings: <br />
-            <b>Bronze</b>: 100<br />
-            <b>Silver</b>: 500<br />
-            <b>Gold</b>: 1000
+            (h.brinkmann@reply.de). <br /><br />We will soon provide detailed
+            sponsoring packages here.
           </p>
-          <h3 class="mt-5">Our Sponsors</h3>
-
-          <p>
-            <img
-              class="sponsor sponsor-gold"
-              src="../assets/sponsors/pttlogo.png"
-              alt="Portaltech Reply GmbH"
-            />
-          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <sponsors />
         </div>
       </div>
     </div>
@@ -135,11 +129,13 @@
 <script>
 // @ is an alias to /src
 import HeaderTeaser from "@/components/HeaderTeaser";
+import Sponsors from "@/components/Sponsors";
 
 export default {
   name: "home",
   components: {
-    HeaderTeaser
+    HeaderTeaser,
+    Sponsors
   }
 };
 </script>
@@ -166,9 +162,5 @@ img {
 }
 .centered {
   text-align: center;
-}
-
-.sponsor {
-  max-width: 150px;
 }
 </style>
