@@ -80,22 +80,31 @@
       </div>
     </div>
 
-    <div class="bg-grey py-5 relative" id="tickets">
+    <div class="bg-grey py-5 relative" id="team">
       <div class="container">
         <div class="row">
           <div class="col-md-5">
-            <h2>
-              Tickets
-            </h2>
+            <h2>Orga team</h2>
             <p>
-              We will start the ticket sale very soon.
+              The vuecamp was created by
+              <a
+                href="https://portaltech.reply.com/portaltech/en/"
+                target="_blank"
+              >
+                portaltech reply</a
+              >, but is based on the help and thoughts of many individuals.
+              Thank you very much for that.
             </p>
-            <p>
-              If you want to stay up to date you can follow our twitter account
-              <a target="_blank" href="https://twitter.com/VueCamp_de"
-                >@VueCamp_de</a
-              >.
-            </p>
+            <a
+              href="https://portaltech.reply.com/portaltech/en/"
+              target="_blank"
+            >
+              <img
+                class="orgaimg"
+                src="../assets/sponsors/pttlogo.png"
+                alt=""
+              />
+            </a>
           </div>
           <div class="col-md-5 offset-md-2">
             <h2>Location</h2>
@@ -124,6 +133,39 @@
               transport.
             </p>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-5 container centered" id="tickets">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <h2>Tickets</h2>
+          <iframe
+            src="https://UMOOZEV-modules.xing-events.com/UMOOZEV.html?viewType=iframe&distributionChannel=CHANNEL_IFRAME&language=de&useDefaults=false&resizeIFrame=true"
+            frameborder="0"
+            width="650px"
+            id="_amiandoIFrame3670008"
+            ><p>
+              Diese Seite benötigt die Unterstützung von Frames durch Ihren
+              Browser. Bitte nutzen Sie einen Browser, der die Darstellung von
+              Frames unterstützt, damit das Ticketvorverkaufs-Modul angezeigt
+              werden kann.
+            </p>
+            <p>
+              Probieren Sie die XING Events
+              <a href="https://www.xing-events.com">online Registrierung</a>
+              noch heute aus.
+            </p></iframe
+          >Mehr Teilnehmer mit
+          <a
+            href="https://www.xing-events.com?viralRefId=UMOOZEV&utm_campaign=ev-UMOOZEV&utm_medium=viral&utm_source=EventWebsite&utm_content=TextLinkBottom&utm_term=text-link"
+            target="_blank"
+            alt="XING Events"
+            title="XING Events"
+            >Online Event Management-Lösungen</a
+          >
+          von XING Events.
         </div>
       </div>
     </div>
@@ -166,5 +208,8 @@ img {
 }
 .centered {
   text-align: center;
+}
+.orgaimg {
+  max-width: 250px;
 }
 </style>
