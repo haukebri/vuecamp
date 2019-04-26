@@ -2,11 +2,11 @@
   <div class="sponsors">
     <h3 class="mt-5">Gold Sponsors</h3>
     <div class="gold-sponsors row">
-      <div class="col-md-5 centered">
+      <div class="col-md-5 entered">
         <a href="https://portaltech.reply.com/portaltech/en/" target="_blank">
           <img
             class="sponsor sponsor-gold"
-            src="../assets/sponsors/pttlogo.png"
+            src="../assets/sponsors/yourlogo.png"
             alt="Portaltech Reply GmbH"
           />
         </a>

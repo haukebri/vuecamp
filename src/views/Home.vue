@@ -59,13 +59,17 @@
           <h2>Sponsors</h2>
           <p>
             Barcamps are organized by the community and wouldn’t be possible
-            without sponsors. In this respect, the vuecamp also needs your
-            support and we very much appreciate your commitment.
+            without sponsors. In this respect, the vuecamp needs your support
+            and we very much appreciate your commitment.
           </p>
           <p>
-            To become a sponsor, please contact Hauke Brinkmann
-            (h.brinkmann@reply.de). <br /><br />We will soon provide detailed
-            sponsoring packages here.
+            Detailed information about sponsoring can be found
+            <a href="/sponsoring_vuecamp_berlin_2019.pdf" target="_blank"
+              >here</a
+            >. <br /><br />
+            Please contact us if you have any further questions:
+            <a href="mailto:m.klawonn@reply.de">m.klawonn@reply.de</a> or
+            <a href="mailto:h.brinkmann@reply.de">h.brinkmann@reply.de</a>.
           </p>
         </div>
       </div>
