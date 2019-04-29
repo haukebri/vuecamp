@@ -164,7 +164,7 @@
         <div class="col-md-8 offset-md-2">
           <h2>Tickets</h2>
           <iframe
-            src="https://UMOOZEV-modules.xing-events.com/UMOOZEV.html?viewType=iframe&distributionChannel=CHANNEL_IFRAME&language=de&useDefaults=false&resizeIFrame=true"
+            src="https://UMOOZEV-modules.xing-events.com/UMOOZEV.html?viewType=iframe&distributionChannel=CHANNEL_IFRAME&language=en&useDefaults=false&resizeIFrame=true"
             frameborder="0"
             width="650px"
             id="_amiandoIFrame3670008"
