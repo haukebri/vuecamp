@@ -84,7 +84,29 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5">
-            <h2>Orga team</h2>
+            <h2>Time schedule</h2>
+            <p>
+              Even if the sessions of a barcamp are not known in advance, you
+              should of course know when the doors open and when there is
+              something to eat. These times refer to both days.
+            </p>
+
+            <p class="low-lh">
+              <b>09:00</b><br />
+              Doors open<br />
+              <b>09:30</b><br />
+              Introduction, session planning<br />
+              <b>10:30</b><br />
+              Sessions<br />
+              <b>12:30</b><br />
+              Lunch<br />
+              <b>13:30</b><br />
+              Sessions<br />
+              <b>17:00</b><br />
+              Summary, Closing words
+            </p>
+
+            <h2 class="mt-5">Orga team</h2>
             <p>
               The vuecamp was created by
               <a
@@ -211,5 +233,8 @@ img {
 }
 .orgaimg {
   max-width: 250px;
+}
+.low-lh {
+  line-height: 1.5;
 }
 </style>
