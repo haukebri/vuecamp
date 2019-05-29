@@ -1,8 +1,21 @@
 <template>
   <div class="sponsors">
+    <h3 class="mt-5">Main Sponsor</h3>
+    <div class="gold-sponsors row">
+      <div class="col-md-6 offset-md-3 centered">
+        <a href="https://www.shopware.com/en/" target="_blank">
+          <img
+            class="sponsor sponsor-gold"
+            src="../assets/sponsors/shopware_logo_blue.png"
+            alt="Shopware AG"
+          />
+        </a>
+      </div>
+    </div>
+
     <h3 class="mt-5">Gold Sponsors</h3>
     <div class="gold-sponsors row">
-      <div class="col-md-5 entered">
+      <div class="col-md-5 centered">
         <a href="https://portaltech.reply.com/portaltech/en/" target="_blank">
           <img
             class="sponsor sponsor-gold"
