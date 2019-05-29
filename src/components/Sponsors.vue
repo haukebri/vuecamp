@@ -16,11 +16,11 @@
     <h3 class="mt-5">Gold Sponsors</h3>
     <div class="gold-sponsors row">
       <div class="col-md-5 centered">
-        <a href="https://portaltech.reply.com/portaltech/en/" target="_blank">
+        <a href="https://www.car2go.com/DE/en/" target="_blank">
           <img
             class="sponsor sponsor-gold"
-            src="../assets/sponsors/yourlogo.png"
-            alt="Portaltech Reply GmbH"
+            src="../assets/sponsors/car2go_logo.png"
+            alt="Car2Go"
           />
         </a>
       </div>
@@ -74,6 +74,7 @@ export default {
   a,
   img {
     display: inline-block;
+    max-height: 120px;
   }
 }
 
