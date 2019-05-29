@@ -16,10 +16,13 @@
     <h3 class="mt-5">Gold Sponsors</h3>
     <div class="gold-sponsors row">
       <div class="col-md-5 car2go right">
-        <a href="https://www.car2go.com/DE/en/" target="_blank">
+        <a
+          href="https://www.your-now.com/our-solutions/share-now"
+          target="_blank"
+        >
           <img
             class="sponsor sponsor-gold"
-            src="../assets/sponsors/car2go_logo.png"
+            src="../assets/sponsors/sharenow_logo.png"
             alt="Car2Go"
           />
         </a>
