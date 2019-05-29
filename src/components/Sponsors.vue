@@ -15,7 +15,7 @@
 
     <h3 class="mt-5">Gold Sponsors</h3>
     <div class="gold-sponsors row">
-      <div class="col-md-5 centered">
+      <div class="col-md-5 car2go right">
         <a href="https://www.car2go.com/DE/en/" target="_blank">
           <img
             class="sponsor sponsor-gold"
@@ -76,6 +76,14 @@ export default {
     display: inline-block;
     max-height: 120px;
   }
+}
+
+.right {
+  text-align: right;
+}
+
+.car2go a {
+  margin-right: 40px;
 }
 
 .silver-sponsors {
