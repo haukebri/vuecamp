@@ -52,11 +52,18 @@
 
     <h3 class="mt-5">Bronze Sponsors</h3>
     <div class="bronze-sponsors">
-      <a href="https://portaltech.reply.com/portaltech/en/" target="_blank">
+      <a href="https://webvisum.de/" target="_blank">
         <img
           class="sponsor sponsor-gold"
-          src="../assets/sponsors/yourlogo.png"
-          alt="Portaltech Reply GmbH"
+          src="../assets/sponsors/webvisum.png"
+          alt="Webvisum"
+        />
+      </a>
+      <a href="https://storyblok.com/" target="_blank">
+        <img
+          class="sponsor sponsor-gold"
+          src="../assets/sponsors/storyblok.png"
+          alt="storyblok"
         />
       </a>
     </div>
