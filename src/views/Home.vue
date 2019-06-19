@@ -12,13 +12,14 @@
               can step up with a topic. But how does it work exactly? Let’s
               break the event down into smaller chunks.
               <br /><br />
-              First, you introduce yourself to everyone else using only three
-              words. The goal here is not to recognize a hundred people, but to
-              get a general idea of what knowledgebase and topics we have.
+              First thing in the morning after your coffee, everyone is
+              encouraged to propose a topic to fill today's session plan.
               <br /><br />
-              After that everyone is encouraged to propose a topic to fill
-              today's session plan.
-              <br /><br />
+              Some sessions will be held by core devs of vuejs, nuxt and
+              vue-storefront. But that shouldn't stop <i>you</i> from proposing
+              a topic yourself. Tell us about
+              <i>&lt;insert project&gt;</i> where you did
+              <i>&lt;insert awesome idea&gt;</i> ❤️️! <br /><br />
               These sessions are then scheduled and divided into the available
               rooms.
               <br /><br />
@@ -237,5 +238,10 @@ img {
 }
 .low-lh {
   line-height: 1.5;
+}
+
+i {
+  color: #42b983;
+  font-weight: bold;
 }
 </style>

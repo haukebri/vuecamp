@@ -18,9 +18,9 @@
             <b-collapse id="nav-collapse" is-nav class="justify-content-end">
               <b-navbar-nav>
                 <b-nav-item href="/">Home</b-nav-item>
-                <b-nav-item href="#tickets">Tickets</b-nav-item>
-                <b-nav-item href="#sponsors">Sponsors</b-nav-item>
-                <b-nav-item href="#tickets">Location</b-nav-item>
+                <b-nav-item href="/#tickets">Tickets</b-nav-item>
+                <b-nav-item href="/#sponsors">Sponsors</b-nav-item>
+                <b-nav-item href="/#team">Location</b-nav-item>
               </b-navbar-nav>
             </b-collapse>
           </b-navbar>
