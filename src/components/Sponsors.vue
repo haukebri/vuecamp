@@ -2,7 +2,7 @@
   <div class="sponsors">
     <h3 class="mt-5">Main Sponsor</h3>
     <div class="gold-sponsors row">
-      <div class="col-md-6 offset-md-3 centered">
+      <div class="col-md-6 centered">
         <a href="https://www.shopware.com/en/" target="_blank">
           <img
             class="sponsor sponsor-gold"
@@ -15,7 +15,7 @@
 
     <h3 class="mt-5">Gold Sponsors</h3>
     <div class="gold-sponsors row">
-      <div class="col-md-5 car2go right">
+      <div class="col-md-5">
         <a href="https://www.share-now.com/" target="_blank">
           <img
             class="sponsor sponsor-gold"
@@ -24,13 +24,12 @@
           />
         </a>
       </div>
+    </div>
 
-      <div class="col-md-5 offset-md-2 centered">
-        <a
-          href="https://www.factorial.io/"
-          target="_blank"
-          style="position: relative; left: -8.5vw;"
-        >
+    <h3 class="mt-5">Silver Sponsors</h3>
+    <div class=" row silver-sponsors">
+      <div class="col-md-3 centered">
+        <a href="https://www.factorial.io/" target="_blank">
           <img
             class="sponsor sponsor-gold"
             src="../assets/sponsors/logo_factorial.png"
@@ -38,17 +37,6 @@
           />
         </a>
       </div>
-    </div>
-
-    <h3 class="mt-5">Silver Sponsors</h3>
-    <div class="silver-sponsors">
-      <a href="https://portaltech.reply.com/portaltech/en/" target="_blank">
-        <img
-          class="sponsor sponsor-gold"
-          src="../assets/sponsors/yourlogo.png"
-          alt="Portaltech Reply GmbH"
-        />
-      </a>
     </div>
 
     <h3 class="mt-5">Bronze Sponsors</h3>
@@ -93,13 +81,10 @@ export default {
   text-align: right;
 }
 
-.car2go a {
-  margin-right: 40px;
-}
-
+.gold-sponsors,
 .silver-sponsors {
+  justify-content: center;
   a {
-    max-width: 250px;
     padding: 20px;
   }
 }
