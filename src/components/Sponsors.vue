@@ -26,11 +26,15 @@
       </div>
 
       <div class="col-md-5 offset-md-2 centered">
-        <a href="https://portaltech.reply.com/portaltech/en/" target="_blank">
+        <a
+          href="https://www.factorial.io/"
+          target="_blank"
+          style="position: relative; left: -8.5vw;"
+        >
           <img
             class="sponsor sponsor-gold"
-            src="../assets/sponsors/yourlogo.png"
-            alt="Portaltech Reply GmbH"
+            src="../assets/sponsors/logo_factorial.png"
+            alt="Factorial GmbH"
           />
         </a>
       </div>
