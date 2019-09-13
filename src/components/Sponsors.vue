@@ -1,8 +1,8 @@
 <template>
   <div class="sponsors">
     <h3 class="mt-5">Main Sponsor</h3>
-    <div class="gold-sponsors row">
-      <div class="col-md-6 centered">
+    <div class="gold-sponsors main-sponsor row">
+      <div class="col-md-8 centered">
         <a href="https://www.shopware.com/en/" target="_blank">
           <img
             class="sponsor sponsor-gold"
@@ -80,7 +80,11 @@ export default {
 .right {
   text-align: right;
 }
-
+.main-sponsor img,
+.main-sponsor a {
+  max-height: 200px;
+  padding-top: 0 !important;
+}
 .gold-sponsors,
 .silver-sponsors {
   justify-content: center;

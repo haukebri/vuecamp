@@ -1,5 +1,5 @@
 <template>
-  <img class="logo" src="../assets/logo.svg" alt="Vuecamp 2019 Logo" />
+  <img class="logo" src="../assets/logo_alt.svg" alt="Vuecamp 2019 Logo" />
 </template>
 
 <script>
