@@ -24,6 +24,19 @@
               </b-navbar-nav>
             </b-collapse>
           </b-navbar>
+          <div class="sponsor">
+            Main sponsor:
+            <a
+              href="https://www.shopware.com/en/"
+              style="padding:0;"
+              target="_blank"
+            >
+              <img
+                src="../assets/sponsors/shopware_logo_blue.png"
+                alt="Shopware AG"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -74,6 +87,15 @@ export default {
   text-transform: uppercase;
   span {
     color: $green;
+  }
+}
+
+.sponsor {
+  text-align: right;
+  padding-right: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  img {
+    max-width: 100px;
   }
 }
 </style>
