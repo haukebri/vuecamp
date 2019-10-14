@@ -55,6 +55,13 @@
           alt="storyblok"
         />
       </a>
+      <a href="https://sylius.com/" target="_blank">
+        <img
+          class="sponsor sponsor-gold"
+          src="../assets/sponsors/sylius.png"
+          alt="sylius"
+        />
+      </a>
     </div>
   </div>
 </template>
@@ -99,7 +106,8 @@ export default {
     padding: 20px;
   }
   img {
-    filter: grayscale(1);
+    // filter: grayscale(1);
+    max-height: 45px;
   }
 }
 
