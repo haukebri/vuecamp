@@ -62,6 +62,13 @@
           alt="sylius"
         />
       </a>
+      <a href="https://signundsinn.de/" target="_blank">
+        <img
+          class="sponsor sponsor-gold"
+          src="../assets/sponsors/signundsinn.png"
+          alt="signundsinn"
+        />
+      </a>
     </div>
   </div>
 </template>
